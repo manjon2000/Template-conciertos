@@ -16,7 +16,99 @@
 </head>
 
 <body>
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <!-- NavBar Desktop -->
+        <div class="row-navbar-desktop">
 
+            <div class="col-logo-menu">
+                <div class="logo-navbar-desktop">
+                    <img width="50" src="./assets/images/concierto.png" alt="Logotype">
+                </div>
+
+                <div class="menu-navbar-desktop">
+                    <a class="menu-item-actived" href="./index.html">Inicio</a>
+                    <a href="./conciertos.html">Conciertos</a>
+                    <a href="./grupos.html">Grupos</a>
+                </div>
+            </div>
+
+            <div class="col-search-btn-login-register">
+                <div class="search-navbar-desktop">
+                    <form action=".index.php">
+                        <div class="form-icon">
+                            <input type="text" name="search-concert" placeholder="Buscar...">
+                            <button type="submit"> <i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="button-login-register">
+                    <a href="#" class="openpopup">
+                        <i class="fas fa-user-circle"></i>
+                        Login/Register
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- End NavBar Desktop -->
+        <!-- NavBar Mobile -->
+        <div class="row-navbar-mobile">
+            <div class="logo-navbar-mobile">
+                <img width="50" src="./assets/images/concierto.png" alt="Logotype">
+            </div>
+            <div class="menu-navbar-mobile">
+                <div class="search">
+                    <div class="form-icon">
+                        <input type="text" name="search-concert" placeholder="Buscar...">
+                        <button type="submit"> <i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="list-links">
+                    <a href="./home.html">Inicio</a>
+                    <a href="./conciertos.html">Conciertos</a>
+                    <a href="./grupos.html">Grupos</a>
+                </div>
+
+                <div class="button-login-register">
+                    <a href="#" class="openpopup">
+                        <i class="fas fa-user-circle"></i>
+                        Login/Register
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="icon-open-menu">
+                <img src="./assets/images/Menu.svg" alt="">
+            </div>
+        </div>
+        <!-- End NavBar Mobile -->
+    </div>
+
+    <!-- Pop-Up -->
+    <div id="popup" class="contenedor-popup">
+        <div class="content-popup">
+            <div class="content-head">
+                <div class="head-title">
+                    <h3>Identificate</h3>
+                </div>
+                <div class="btn-close close-modal-register">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="content-info-register">
+                <div class="title-info">
+                    <h3>Como deseas identificarte?</h3>
+                </div>
+                <div class="btn-group">
+                    <a href="">Login</a>
+                    <a href="">Registro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-Up -->
 
 
     <header class="banner-group" style="background-image: url(./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg);">
@@ -85,9 +177,82 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="details-content">
+                            <p>
+                                <span class="fw-bold">Ubicacion:</span>
+                                Madrid - Santiago Bernabeú
+                            </p>
+                            <p>
+                                <span class="fw-bold">Fecha:</span>
+                                26/02/2020
+                            </p>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="details-content">
+                            <p>
+                                <span class="fw-bold">Ubicacion:</span>
+                                Madrid - Santiago Bernabeú
+                            </p>
+                            <p>
+                                <span class="fw-bold">Fecha:</span>
+                                26/02/2020
+                            </p>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
+
+
+    <!-- Scripts -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Scripts -->
 
 </body>
 
