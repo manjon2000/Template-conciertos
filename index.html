@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/762a7ec47b.js" crossorigin="anonymous"></script>
+    <!-- FontAwesome -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <!-- Styles -->
+
+</head>
+
+<body>
+
+
+    <!-- Navbar -->
+    <div class="navbar-container">
+        <!-- NavBar Desktop -->
+        <div class="row-navbar-desktop">
+
+            <div class="col-logo-menu">
+                <div class="logo-navbar-desktop">
+                    <img width="50" src="./assets/images/concierto.png" alt="Logotype">
+                </div>
+
+                <div class="menu-navbar-desktop">
+                    <a class="menu-item-actived" href="./home.html">Inicio</a>
+                    <a href="./conciertos.html">Conciertos</a>
+                    <a href="">Grupos</a>
+                    <a href="">Sobre Nosotros</a>
+                </div>
+            </div>
+
+            <div class="col-search-btn-login-register">
+                <div class="search-navbar-desktop">
+                    <form action=".index.php">
+                        <div class="form-icon">
+                            <input type="text" name="search-concert" placeholder="Buscar...">
+                            <button type="submit"> <i class="fas fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="button-login-register">
+                    <a href="#" class="openpopup">
+                        <i class="fas fa-user-circle"></i>
+                        Login/Register
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- End NavBar Desktop -->
+        <!-- NavBar Mobile -->
+        <div class="row-navbar-mobile">
+            <div class="logo-navbar-mobile">
+                <img width="50" src="./assets/images/concierto.png" alt="Logotype">
+            </div>
+            <div class="menu-navbar-mobile">
+                    <div class="search">
+                        <div class="form-icon">
+                            <input type="text" name="search-concert" placeholder="Buscar...">
+                            <button type="submit"> <i class="fas fa-search"></i></button>
+                        </div>
+                    </div>
+                <div class="list-links">
+                    <a href="./home.html">Inicio</a>
+                    <a href="./conciertos.html">Conciertos</a>
+                    <a href="">Grupos</a>
+                    <a href="">Sobre Nosotros</a>
+                </div>
+
+                <div class="button-login-register">
+                    <a href="#" class="openpopup">
+                        <i class="fas fa-user-circle"></i>
+                        Login/Register
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="icon-open-menu">
+                <img src="./assets/images/Menu.svg" alt="">
+            </div>
+        </div>
+        <!-- End NavBar Mobile -->
+    </div>
+
+    <!-- Pop-Up -->
+    <div id="popup" class="contenedor-popup">
+        <div class="content-popup">
+            <div class="content-head">
+                <div class="head-title">
+                    <h3>Identificate</h3>
+                </div>
+                <div class="btn-close close-modal-register">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="content-info-register">
+                <div class="title-info">
+                    <h3>Como deseas identificarte?</h3>
+                </div>
+                <div class="btn-group">
+                    <a href="">Login</a>
+                    <a href="">Registro</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pop-Up -->
+
+    <!-- Header -->
+    <header class="header-container">
+        <div class="conatiner-content-header">
+            <div class="conatiner-info-hader">
+                <div class="info-title">
+                    <h2>
+                        La fiesta ha vuelto a lo grande.
+                    </h2>
+                </div>
+                <div class="info-desc">
+                    <p>
+                        Reserva tus entradas pichando en el enlace, para pasartelo perfectamente bien.
+                    </p>
+                </div>
+                <div class="header-btn-info">
+                    <a href="">Comprar entradas</a>
+                    <a href="">Reservar entradas</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" class="main-container">
+
+        <!-- Conciertos -->
+        <section class="all-concerts">
+            <div class="title-view-all">
+                <div class="title-section">
+                    <h2>Conciertos</h2>
+                </div>
+                <div class="view-all">
+                    <h4>
+                        <a href="">
+                            Ver todos
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </h4>
+                </div>
+            </div>
+            <div class="container-flex-concerts">
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Items -->
+                <div class="items-concerts">
+                    <div class="card-image">
+                        <img src="./assets/images/adam-whitlock-I9j8Rk-JYFM-unsplash.jpg" alt="">
+                    </div>
+                    <div class="content-card">
+                        <div class="title-content">
+                            <h3>
+                                Festival Don pinturas
+                            </h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et vestibulum libero.
+                                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos
+                            </p>
+                        </div>
+                        <div class="btn-content">
+                            <a href="#">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cta unete -->
+        <section class="cta">
+            <div class="cta-content">
+                <div class="cta-title">
+                    <h2>UNETE A NOSOTROS PARA DISFRUTAR DE MAS VENTAJAS</h2>
+                </div>
+                <div class="cta-desc">
+                    <p>
+                        Podras comentar en los post de los concierto, tambien una nueva funcionalidad de guardar tu
+                        grupo favorito para ver los nuevos conciertos
+                    </p>
+                </div>
+                <div class="cta-btn">
+                    <a href="">Registrate</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artisas -->
+        <section class="section-all-artist">
+            <div class="section-head">
+                <div class="title-section">
+                    <h2>Artistas</h2>
+                </div>
+                <div class="btn-view">
+                    <a href="">
+                        Ver todo
+                        <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="container-artist-flex">
+                <!-- Items -->
+                <div class="items-artist">
+                    <div class="content-img">
+                        <img src="./assets/images/estopa.jpg" alt="">
+                    </div>
+                    <div class="content-body">
+                        <div class="title">
+                            <h3>
+                                Estopa
+                                <i class="fas fa-check-circle text-color-verify"></i>
+                            </h3>
+                        </div>
+                        <div class="total-followers">
+                            <p>
+                                Seguidores: 400
+                            </p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt explicabo excepturi
+                                quisquam, consequuntur beatae placeat!
+                            </p>
+                        </div>
+                        <div class="btn-view-more">
+                            <a href="">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Items -->
+                <div class="items-artist">
+                    <div class="content-img">
+                        <img src="./assets/images/estopa.jpg" alt="">
+                    </div>
+                    <div class="content-body">
+                        <div class="title">
+                            <h3>
+                                Estopa
+                                <i class="fas fa-check-circle text-color-verify"></i>
+                            </h3>
+                        </div>
+                        <div class="total-followers">
+                            <p>
+                                Seguidores: 400
+                            </p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt explicabo excepturi
+                                quisquam, consequuntur beatae placeat!
+                            </p>
+                        </div>
+                        <div class="btn-view-more">
+                            <a href="">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Items -->
+                <div class="items-artist">
+                    <div class="content-img">
+                        <img src="./assets/images/estopa.jpg" alt="">
+                    </div>
+                    <div class="content-body">
+                        <div class="title">
+                            <h3>
+                                Estopa
+                                <i class="fas fa-check-circle text-color-verify"></i>
+                            </h3>
+                        </div>
+                        <div class="total-followers">
+                            <p>
+                                Seguidores: 400
+                            </p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt explicabo excepturi
+                                quisquam, consequuntur beatae placeat!
+                            </p>
+                        </div>
+                        <div class="btn-view-more">
+                            <a href="">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Items -->
+                <div class="items-artist">
+                    <div class="content-img">
+                        <img src="./assets/images/estopa.jpg" alt="">
+                    </div>
+                    <div class="content-body">
+                        <div class="title">
+                            <h3>
+                                Estopa
+                                <i class="fas fa-check-circle text-color-verify"></i>
+                            </h3>
+                        </div>
+                        <div class="total-followers">
+                            <p>
+                                Seguidores: 400
+                            </p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt explicabo excepturi
+                                quisquam, consequuntur beatae placeat!
+                            </p>
+                        </div>
+                        <div class="btn-view-more">
+                            <a href="">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Items -->
+                 <div class="items-artist">
+                    <div class="content-img">
+                        <img src="./assets/images/estopa.jpg" alt="">
+                    </div>
+                    <div class="content-body">
+                        <div class="title">
+                            <h3>
+                                Estopa
+                                <i class="fas fa-check-circle text-color-verify"></i>
+                            </h3>
+                        </div>
+                        <div class="total-followers">
+                            <p>
+                                Seguidores: 400
+                            </p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt explicabo excepturi
+                                quisquam, consequuntur beatae placeat!
+                            </p>
+                        </div>
+                        <div class="btn-view-more">
+                            <a href="">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Items -->
+                 <div class="items-artist">
+                    <div class="content-img">
+                        <img src="./assets/images/estopa.jpg" alt="">
+                    </div>
+                    <div class="content-body">
+                        <div class="title">
+                            <h3>
+                                Estopa
+                                <i class="fas fa-check-circle text-color-verify"></i>
+                            </h3>
+                        </div>
+                        <div class="total-followers">
+                            <p>
+                                Seguidores: 400
+                            </p>
+                        </div>
+                        <div class="desc">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt explicabo excepturi
+                                quisquam, consequuntur beatae placeat!
+                            </p>
+                        </div>
+                        <div class="btn-view-more">
+                            <a href="">Ver mas</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Scripts -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Scripts -->
+</body>
+
+</html>
