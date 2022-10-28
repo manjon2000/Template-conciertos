@@ -11,7 +11,7 @@ Albert Jurado Manjon desarrollador front-end, y jordi serrano
 
 <p>Back-End Project
 <br />
-Albert Jurado Manjon desarrollador front-end, y jordi serrano
+Albert Jurado Manjon desarrollador back-end, y jordi serrano
 <br />
 <a href="https://proyectoyourgroup.jordiserrano.es/">View Front-end</a>
 </p>
