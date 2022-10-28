@@ -5,7 +5,7 @@
 <br />
 Albert Jurado Manjon desarrollador front-end, y jordi serrano
 <br />
-<a href="https://manjon2000.github.io/Template-conciertos/">View Front-end</a>
+<a href="https://manjon2000.github.io/Template-conciertos/">View front-end</a>
 </p>
 
 
@@ -13,7 +13,7 @@ Albert Jurado Manjon desarrollador front-end, y jordi serrano
 <br />
 Albert Jurado Manjon desarrollador back-end, y jordi serrano
 <br />
-<a href="https://proyectoyourgroup.jordiserrano.es/">View Front-end</a>
+<a href="https://proyectoyourgroup.jordiserrano.es/">View back-end</a>
 </p>
 
 
